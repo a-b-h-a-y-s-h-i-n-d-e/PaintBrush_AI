@@ -11,8 +11,10 @@ from PIL import Image
 title = '<p style="text-align:center; font-size:50px;"> PaintBrush AI </p>'
 st.markdown(title, unsafe_allow_html=True)
 
-info = """<b> What is PaintBrush AI ? </b> &nbsp; It uses style transfer technique which takes Content 
-image and style image as input and create Digital art !!
+info = """<b> What is PaintBrush AI ? </b> &nbsp; It uses Neural style transfer technique which takes Content 
+image and style image as input and create Digital art !! <br> <b> What is Neural style Transfer ?? </b> &nbsp;
+Neural style transfer (NST) is a computer vision technique that uses deep learning to combine the style of one image with 
+the content of another
 """
 st.markdown(info, unsafe_allow_html=True)
 
@@ -65,6 +67,12 @@ with st.sidebar:
         st.image(image="./assets/content6.jpg")
     with col2:
         st.image(image="./assets/style6.jpg")
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image(image="./assets/content7.jpg")
+    with col2:
+        st.image(image="./assets/style7.jpg")
     
 
 
