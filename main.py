@@ -4,7 +4,8 @@ import streamlit as st
 from io import BytesIO
 from PIL import Image
 
-
+# st.set_page_config(page_title="PaintBrush AI",
+#                    page_icon="./assets/favicon.jpg", layout="centered")
 
 # -------- Small Header part ---------
 
@@ -29,6 +30,9 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 with st.sidebar:
 
+    st.image(image="./assets/giphy.gif")
+    st.markdown("</br>", unsafe_allow_html=True)
+    
     st.markdown('You can use below sample images to try out')
 
     # example images
