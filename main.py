@@ -4,8 +4,8 @@ import streamlit as st
 from io import BytesIO
 from PIL import Image
 
-# st.set_page_config(page_title="PaintBrush AI",
-#                    page_icon="./assets/favicon.jpg", layout="centered")
+st.set_page_config(page_title="Paintbrush AI",
+                   page_icon="./assets/favicon.png", layout="centered")
 
 # -------- Small Header part ---------
 
