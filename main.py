@@ -9,7 +9,7 @@ from PIL import Image
 
 # -------- Small Header part ---------
 
-title = '<p style="text-align:center; font-size:50px;"> PaintBrush AI </p>'
+title = '<p style="text-align:center; font-size:50px; color:#f4d03f;"> Paintbrush AI 🖌️</p>'
 st.markdown(title, unsafe_allow_html=True)
 
 info = """<b> What is PaintBrush AI ? </b> &nbsp; It uses Neural style transfer technique which takes Content 

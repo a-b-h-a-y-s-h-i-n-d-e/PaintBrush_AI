@@ -24,4 +24,5 @@ def inference(content_path, style_path):
     stylized_image_np = stylized_image_np.astype(np.uint8)
     stylized_image_pil = Image.fromarray(stylized_image_np)
 
-    return stylized_image_pil
+    resized_image = stylized_image_pil.resize((300, 200), Image.Resampling.LANCZOS)
+    return resized_image
