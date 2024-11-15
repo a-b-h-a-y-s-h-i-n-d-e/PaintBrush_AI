@@ -8,6 +8,6 @@
 *  NST uses deep neural networks to minimize the difference between the style and content representations of two images
 
 ### 🔗 References
--> https://arxiv.org/pdf/1508.06576  
--> https://towardsdatascience.com/neural-networks-intuitions-2-dot-product-gram-matrix-and-neural-style-transfer-5d39653e7916  
--> https://medium.com/@ferlatti.aldo/neural-style-transfer-nst-theory-and-implementation-c26728cf969d  
+* https://arxiv.org/pdf/1508.06576  
+* https://towardsdatascience.com/neural-networks-intuitions-2-dot-product-gram-matrix-and-neural-style-transfer-5d39653e7916  
+* https://medium.com/@ferlatti.aldo/neural-style-transfer-nst-theory-and-implementation-c26728cf969d  
