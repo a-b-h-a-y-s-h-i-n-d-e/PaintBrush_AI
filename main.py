@@ -28,6 +28,14 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
+hide_streamlit_style = """
+            <style>
+            [data-testid="stToolbar"] {visibility: hidden !important;}
+            footer {visibility: hidden !important;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 # -------- Small Header part ---------
 
 title = '<p style="text-align:center; font-size:50px; color:#f4d03f;"> Paintbrush AI 🖌️</p>'
