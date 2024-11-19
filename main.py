@@ -15,21 +15,20 @@ st.markdown(
     .viewerBadge_text__1JaDK {
         display: none;
     }
+ 
+    footer {
+        visibility: hidden;
+        display: none;
+    }
+    .stDeploymentInfo {
+        display: none;
+    }
+
     </style>
     """,
     unsafe_allow_html=True
 )
 
-st.markdown("""
-    <style>
-    footer {
-        visibility: hidden;
-    }
-    .stDeploymentInfo {
-        display: none;
-    }
-    </style>
-    """, unsafe_allow_html=True)
 
 # -------- Small Header part ---------
 
