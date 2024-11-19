@@ -7,27 +7,24 @@ from PIL import Image
 st.set_page_config(page_title="Paintbrush AI",
                    page_icon="./assets/favicon.png", layout="centered")
 
-st.markdown(
-    """
+hide_decoration_bar_style = '''
     <style>
-    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
-    .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
-    .viewerBadge_text__1JaDK {
-        display: none;
-    }
- 
-    footer {
-        visibility: hidden;
-        display: none;
-    }
+    
+    footer {visibility: hidden;}
     .stDeploymentInfo {
-        display: none;
+        visibility: hidden;
+        display: none !important;
     }
-
+    .viewerBadge_container__1QSob,
+    .styles_viewerBadge__1yB5_,
+    .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK {
+        display: none !important;
+        visibility: hidden !important;
+    }
     </style>
-    """,
-    unsafe_allow_html=True
-)
+    '''
+st.markdown(hide_decoration_bar_style, unsafe_allow_html=True)
 
 
 # -------- Small Header part ---------
