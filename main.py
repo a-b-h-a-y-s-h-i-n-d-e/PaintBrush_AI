@@ -7,6 +7,19 @@ from PIL import Image
 st.set_page_config(page_title="Paintbrush AI",
                    page_icon="./assets/favicon.png", layout="centered")
 
+st.markdown(
+    """
+    <style>
+    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+    .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # -------- Small Header part ---------
 
 title = '<p style="text-align:center; font-size:50px; color:#f4d03f;"> Paintbrush AI 🖌️</p>'
