@@ -11,3 +11,4 @@
 * https://arxiv.org/pdf/1508.06576  
 * https://towardsdatascience.com/neural-networks-intuitions-2-dot-product-gram-matrix-and-neural-style-transfer-5d39653e7916  
 * https://medium.com/@ferlatti.aldo/neural-style-transfer-nst-theory-and-implementation-c26728cf969d  
+* https://www.tensorflow.org/hub/tutorials/tf2_arbitrary_image_stylization
