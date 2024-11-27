@@ -10,7 +10,35 @@ st.set_page_config(page_title="Paintbrush AI",
 hide_decoration_bar_style = '''
     <style>
     
-    .reportview-container .main footer {visibility: hidden;}
+    div[data-testid="stToolbar"] {
+        visibility: hidden;
+        height: 0%;
+        position: fixed;
+    }
+    div[data-testid="stDecoration"] {
+        visibility: hidden;
+        height: 0%;
+        position: fixed;
+    }
+    div[data-testid="stStatusWidget"] {
+        visibility: hidden;
+        height: 0%;
+        position: fixed;
+    }
+    #MainMenu {
+        visibility: hidden;
+        height: 0%;
+    }
+    header {
+        visibility: hidden;
+        height: 0%;
+    }
+    footer {
+        visibility: hidden;
+        height: 0%;
+    }
+
+    .reportview-container .main {visibility: hidden;}
 
     .stDeploymentInfo {
         visibility: hidden;
