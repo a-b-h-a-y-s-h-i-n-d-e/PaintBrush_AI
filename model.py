@@ -9,7 +9,7 @@ hub_module = hub.load('https://tfhub.dev/google/magenta/arbitrary-image-stylizat
 def process_image(image_path):
     image = Image.open(image_path)
     image = np.array(image).astype(np.float32)[np.newaxis, ...] / 255.
-    image = tf.image.resize(image, (256, 256))
+    image = tf.image.resize(image, (300, 200))
     return image
 
 def inference(content_path, style_path):
